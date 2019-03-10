@@ -1,84 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>About Us | Metro Consulting</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.min.css" rel="stylesheet">
-    <style type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Metro Consulting</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 740px) {
       html,
       body,
       header,
       .view {
-        height: 100%;
+        height: 1000px;
       }
-  
-      @media (max-width: 740px) {
-        html,
-        body,
-        header,
-        .view {
-          height: 1000px;
-        }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
       }
-  
-      @media (min-width: 800px) and (max-width: 850px) {
-        html,
-        body,
-        header,
-        .view {
-          height: 650px;
-        }
-      }
-      @media (min-width: 800px) and (max-width: 850px) {
-                .navbar:not(.top-nav-collapse) {
-                    background: #1C2331!important;
-                }
-            }
-    </style>
-  </head>
-  
-  <body>
-  
-    <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-      <div class="container">
-  
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">
-          <img src="https://raw.githubusercontent.com/metroconsulting/metroconsulting.github.io/master/img/favicon.png" alt="">
-        </a>
-        <!--
-        <a class="navbar-brand" href="#">
-          <img src="/img/icon/favicon-96x96.png">
-        </a>
-      -->
-  
-  
-        <!-- Collapse -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-          <!-- Left -->
-          <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="https://raw.githubusercontent.com/metroconsulting/metroconsulting.github.io/master/img/favicon.png" alt="">
+      </a>
+      <!--
+      <a class="navbar-brand" href="#">
+        <img src="/img/icon/favicon-96x96.png">
+      </a>
+    -->
+
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/about.html" target="_blank">About Us</a>
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about.html" target="_blank">About Us
+            <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/positions.html" target="_blank">Positions</a>
@@ -87,39 +91,156 @@
             <a class="nav-link" href="/contact.html" target="_blank">Contact Us</a>
           </li>
         </ul>
-  
-          <!-- Right -->
-          <!--Saving these for once we get them set up
-          <ul class="navbar-nav nav-flex-icons">
-            <li class="nav-item">
-              <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
-                target="_blank">
-                <i class="fab fa-github mr-2"></i>MDB GitHub
-              </a>
-            </li>
-          </ul>
-        -->
-        </div>
-  
+
+        <!-- Right -->
+        <!--Saving these for once we get them set up
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+              target="_blank">
+              <i class="fab fa-github mr-2"></i>MDB GitHub
+            </a>
+          </li>
+        </ul>
+      -->
       </div>
-    </nav>
-    <!-- Navbar -->
-    <!-- Main Layout-->
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Full Page Intro -->
+  <div class="view half-page-intro" style="background-image: url('https://raw.githubusercontent.com/metroconsulting/metroconsulting.github.io/master/img/geometric%20background.png'); background-repeat: no-repeat; background-size: cover;">
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <div class="container">
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 white-text text-center text-md-left">
+
+            <img src="https://raw.githubusercontent.com/metroconsulting/metroconsulting.github.io/master/img/Logo1.png" class="img-fluid" >
+
+            <hr class="hr-light">
+
+            <p class="mb-4 d-none d-md-block">
+              <strong>Helping Bronx small business owners grow, streamline, and enhance their companies</strong>
+            </p>
+
+          </div>
+          <!--Grid column-->
+
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Main info-->
+      <section class="mt-5 wow fadeIn">
+
     
-    <!--/Main Layout-->
-    
-    <!--Footer-->
- <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+      </section>
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section>
+
+        <h3 class="h3 text-center mb-5">What We Do</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+            <!--First row-->
+            <div class="row">
+             <!-- <div class="col-1 mr-3">
+                <i class="fas fa-code fa-2x indigo-text"></i>
+              </div> -->
+              <div class="col-10">
+                <h5 class="feature-title">Our Misson</h5>
+                <p class="grey-text">Metro Consulting helps Bronx-based small business owners grow, streamline, and enhance their company. We make this possible by enlisting smart and motivated Fordham students from a variety of disciplines to volunteer as consultants. Our goal is to make a positive impact on our local community while simultaneously giving students hands-on experience in the real world.</p>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-10">
+                <h5 class="feature-title">What We Offer</h5>
+                
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Financial Projections</li>
+                  <li class="list-group-item">Industry and Competitor Analysis</li>
+                  <li class="list-group-item">Website Design</li>
+                  <li class="list-group-item">Search Engine Optimization</li>
+                  <li class="list-group-item">Developing A Marketing Plan</li>
+                  <li class="list-group-item">Company Branding</li>
+                  <li class="list-group-item">Community Outreach</li>
+                </ul>
+              
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-10">
+                <h5 class="feature-title">How We Do It</h5>
+                <p class="grey-text">Metro consultants (students) are placed in a team and assigned a client (a Bronx-based small business) to work with for the school year; these teams are determined based on each student’s interests and experience as well as the needs. Through bi-weekly meetings between the team and client, deliverables are created by combining the owner’s vision and consultants’ recommendation.</p>
+              </div>
+            </div>
+            <!--/Third row-->
+
+
+        </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+      <hr class="mb-5">
+
+     
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
     <!-- Social icons -->
    
